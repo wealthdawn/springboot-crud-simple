@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.test.mapper.WinePage">
+	
+	
+	<sql id="refsql">
+		id,
+		capacity,
+		brand,
+		price,
+		type
+	</sql>
+	
+	<select id="getCount" resultType="int">
+		select count(id) from wine  
+	</select>
+	
+	
+	<select id="getByPage" resultType="com.test.domain.Wine">
+		select * from wine limit #{0},#{1}
+	</select>
+</mapper>

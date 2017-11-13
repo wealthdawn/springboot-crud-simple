@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: springboot.learn.xml Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.zcf.test
+Build-Jdk: 1.7.0_79
+Built-By: zcf-pc
+Created-By: Maven Integration for Eclipse
+Implementation-URL: http://maven.apache.org
+
